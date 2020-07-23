@@ -4,7 +4,8 @@ const { about } = require('../Controllers/external-pages/about');
 
 const router = express.Router();
 
-router.get('/', home);
+// router.get('/', home);
+router.get('/login', home);
 router.get('/about', about);
 
 module.exports = router;
